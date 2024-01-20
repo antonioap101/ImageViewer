@@ -1,9 +1,10 @@
-package software.ulpgc;
+package software.ulpgc.imageviewer.presenter;
 
-import main.software.ulpgc.imageviewer.interfaces.Image;
-import main.software.ulpgc.imageviewer.interfaces.ImageDisplay;
+import software.ulpgc.imageviewer.interfaces.Image;
+import software.ulpgc.imageviewer.interfaces.ImageDisplay;
+import software.ulpgc.imageviewer.interfaces.Presenter;
 
-public class ImagePresenter {
+public class ImagePresenter implements Presenter {
     private final ImageDisplay display;
     private Image image;
 
@@ -23,6 +24,16 @@ public class ImagePresenter {
 
     }
 
+    @Override
+    public void next(){
+        show(image.next());
+    }
+
+    @Override
+    public void prev(){
+        show(image.prev());
+    }
+
     private void released(int offset) {
         if (Math.abs(offset) >= display.getWidth() / 2)
             image = offset > 0 ? image.prev() : image.next();
@@ -33,6 +44,7 @@ public class ImagePresenter {
         this.image = image;
         repaint();
     }
+
 
     private void repaint() {
         this.display.clear();

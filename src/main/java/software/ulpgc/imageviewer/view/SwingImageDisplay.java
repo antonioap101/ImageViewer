@@ -1,6 +1,6 @@
-package software.ulpgc.view;
+package software.ulpgc.imageviewer.view;
 
-import main.software.ulpgc.imageviewer.interfaces.ImageDisplay;
+import software.ulpgc.imageviewer.interfaces.ImageDisplay;
 
 import javax.swing.*;
 import java.awt.*;
@@ -9,18 +9,19 @@ import java.awt.event.MouseListener;
 import java.awt.event.MouseMotionListener;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Map;
+import java.util.Objects;
 
 public class SwingImageDisplay extends JPanel implements ImageDisplay {
     private Shift shift = Shift.Null;
     private Released released = Released.Null;
     private int initShift;
-    private List<Paint> paints = new ArrayList<>();
+    private final List<Paint> paints = new ArrayList<>();
 
     public SwingImageDisplay() {
         this.addMouseListener(mouseListener());
         this.addMouseMotionListener(mouseMotionListener());
     }
+
 
     private MouseListener mouseListener() {
         return new MouseListener() {
@@ -58,26 +59,23 @@ public class SwingImageDisplay extends JPanel implements ImageDisplay {
     }
 
     @Override
-    public void paint(String id, int offset) {
-        paints.add(new Paint(id, offset));
-        repaint();
-    }
-
-    @Override
     public void clear() {
         paints.clear();
     }
 
-    private static final Map<String,Color> colors = Map.of(
-            "red", Color.RED,
-            "green", Color.GREEN,
-            "blue", Color.BLUE
-    );
+    @Override
+    public void paint(String id, int offset) {
+        ImageIcon imageIcon = new ImageIcon(Objects.requireNonNull(getClass().getResource(id)));
+        paints.add(new Paint(imageIcon, offset));
+        repaint();
+    }
+
     @Override
     public void paint(Graphics g) {
         for (Paint paint : paints) {
-            g.setColor(colors.get(paint.id));
-            g.fillRect(paint.offset, 0, 800, 600);
+            if (paint.image != null) {
+                g.drawImage(paint.image.getImage(), paint.offset, 0, this.getWidth(), this.getHeight(), this);
+            }
         }
     }
 
@@ -91,6 +89,6 @@ public class SwingImageDisplay extends JPanel implements ImageDisplay {
         this.released = released != null ? released : Released.Null;
     }
 
-    private record Paint(String id, int offset) {
+    private record Paint(ImageIcon image, int offset) {
     }
 }

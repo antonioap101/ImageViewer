@@ -1,4 +1,4 @@
-package software.ulpgc.interfaces;
+package software.ulpgc.imageviewer.interfaces;
 
 public interface ImageDisplay {
     void paint(String id, int offset);
@@ -15,4 +15,5 @@ public interface ImageDisplay {
         Released Null = offset -> {};
         void offset(int offset);
     }
+
 }

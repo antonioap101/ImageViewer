@@ -1,5 +1,6 @@
 package software.ulpgc.imageviewer.interfaces;
 
-public interface ImageLoader {
-    Image load();
+public interface Command {
+    void execute();
 }
+

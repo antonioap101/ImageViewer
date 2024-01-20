@@ -1,4 +1,4 @@
-package software.ulpgc.interfaces;
+package software.ulpgc.imageviewer.interfaces;
 
 public interface Image {
     String id();

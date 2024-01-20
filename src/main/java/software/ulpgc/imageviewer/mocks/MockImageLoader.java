@@ -1,7 +1,7 @@
-package software.ulpgc.mocks;
+package software.ulpgc.imageviewer.mocks;
 
-import main.software.ulpgc.imageviewer.interfaces.Image;
-import main.software.ulpgc.imageviewer.interfaces.ImageLoader;
+import software.ulpgc.imageviewer.interfaces.Image;
+import software.ulpgc.imageviewer.interfaces.ImageLoader;
 
 public class MockImageLoader implements ImageLoader {
     private final String[] ids = new String[] {"red","green","blue"};
