@@ -4,24 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86474467-c6a1-47c0-aa54-738d1d9aed13" name="Changes" comment="Added Buttons Functionality to Presenter">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/software/ulpgc/imageviewer/control/NextImageCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/software/ulpgc/imageviewer/control/PreviousImageCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/software/ulpgc/imageviewer/interfaces/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/software/ulpgc/imageviewer/interfaces/Presenter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/software/ulpgc/imageviewer/presenter/FixerImageLoader.java" afterDir="false" />
+    <list default="true" id="86474467-c6a1-47c0-aa54-738d1d9aed13" name="Changes" comment="Added Button Designs">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Right.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/software/ulpgc/imageviewer/ImagePresenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/software/ulpgc/imageviewer/presenter/ImagePresenter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/software/ulpgc/imageviewer/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/software/ulpgc/imageviewer/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/software/ulpgc/imageviewer/interfaces/Image.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/software/ulpgc/imageviewer/interfaces/Image.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/software/ulpgc/imageviewer/interfaces/ImageDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/software/ulpgc/imageviewer/interfaces/ImageDisplay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/software/ulpgc/imageviewer/interfaces/ImageLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/software/ulpgc/imageviewer/interfaces/ImageLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/software/ulpgc/imageviewer/mocks/MockImageLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/software/ulpgc/imageviewer/mocks/MockImageLoader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/software/ulpgc/imageviewer/view/MainFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/software/ulpgc/imageviewer/view/MainFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/software/ulpgc/imageviewer/view/SwingImageDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/software/ulpgc/imageviewer/view/SwingImageDisplay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/torrente4.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/torrente4.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +54,9 @@
       <recent name="C:\Users\Admin\Documents\ULPGC\3er Curso\1er Semestre\IS2\Practicas de Aula\image-viewer\ImageViewer\src\main\resources" />
       <recent name="C:\Users\Admin\Documents\ULPGC\3er Curso\1er Semestre\IS2\Practicas de Aula\image-viewer\ImageViewer\src\main\java\software\ulpgc" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\Documents\ULPGC\3er Curso\1er Semestre\IS2\Practicas de Aula\image-viewer\ImageViewer\src\main\resources\assets" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application">
@@ -77,6 +67,13 @@
       </method>
     </configuration>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-5cd809f4" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -86,10 +83,20 @@
       <option name="presentableId" value="Default" />
       <updated>1705705362187</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added Buttons Functionality to Presenter">
+      <option name="closed" value="true" />
+      <created>1705713431028</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1705713431028</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added Buttons Functionality to Presenter" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Buttons Functionality to Presenter" />
+    <MESSAGE value="Added Button Designs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Button Designs" />
   </component>
 </project>

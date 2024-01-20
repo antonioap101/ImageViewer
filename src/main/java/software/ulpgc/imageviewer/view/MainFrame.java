@@ -7,6 +7,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Objects;
 
 public class MainFrame extends JFrame {
     private ImageDisplay imageDisplay;
@@ -30,15 +31,25 @@ public class MainFrame extends JFrame {
 
     private Component createToolbar() {
         JPanel panel = new JPanel();
-        panel.add(createButton("<"));
-        panel.add(createButton(">"));
+
+        panel.setBackground(new Color(0x939693));
+
+        panel.add(createButton("<", "/assets/Left.png"));
+        panel.add(createButton(">", "/assets/Right.png"));
         return panel;
     }
 
 
-    private Component createButton(String label) {
-        JButton button = new JButton(label);
+    private Component createButton(String label, String iconPath) {
+        JButton button = new JButton(new ImageIcon(Objects.requireNonNull(getClass().getResource(iconPath))));
         button.addActionListener(e -> commands.get(label).execute());
+
+        button.setMargin(new java.awt.Insets(0, 0, 0, 0));
+        button.setBorderPainted(false);
+        button.setContentAreaFilled(false);
+        button.setFocusPainted(true);
+        button.setOpaque(false);
+
         return button;
     }
 
