@@ -4,9 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86474467-c6a1-47c0-aa54-738d1d9aed13" name="Changes" comment="Added Button Designs">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="86474467-c6a1-47c0-aa54-738d1d9aed13" name="Changes" comment="Added README.md">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/software/ulpgc/imageviewer/presenter/FixerImageLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/software/ulpgc/imageviewer/presenter/FixerImageLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/torrente1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/torrente2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/torrente3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/torrente4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/torrente5.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,12 +106,21 @@
       <option name="project" value="LOCAL" />
       <updated>1705715603735</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added README.md">
+      <option name="closed" value="true" />
+      <created>1705715853665</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1705715853665</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added Buttons Functionality to Presenter" />
     <MESSAGE value="Added Button Designs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Button Designs" />
+    <MESSAGE value="Added README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added README.md" />
   </component>
 </project>

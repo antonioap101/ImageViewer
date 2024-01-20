@@ -4,9 +4,10 @@ import software.ulpgc.imageviewer.interfaces.Image;
 import software.ulpgc.imageviewer.interfaces.ImageLoader;
 
 public class FixerImageLoader implements ImageLoader {
+
     private final String[] imageFileNames = new String[]{
-            "/torrente1.jpg", "/torrente2.jpg", "/torrente3.jpg",
-            "/torrente4.jpg", "/torrente5.jpg"
+            "/car1.jpg", "/car2.jpg", "/car3.jpg",
+            "/car4.jpg", "/car5.jpg"
     };
 
     @Override
