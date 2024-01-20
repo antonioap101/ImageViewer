@@ -36,6 +36,6 @@ ImageViewer es una aplicación simple de visor de imágenes desarrollada en Java
 
 ## Licencia
 
-Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para obtener más detalles.
+Este proyecto está bajo la Licencia MIT. 
 
 ---
