@@ -17,11 +17,8 @@ ImageViewer es una aplicación simple de visor de imágenes desarrollada en Java
 
 1. Clona o descarga el repositorio.
 
-2. Compila y ejecuta la aplicación Java utilizando el siguiente comando:
+2. Compila y ejecuta la aplicación Java utilizando tu IDE preferido.
 
-   ```shell
-   java -jar ImageViewer.jar
-   ```
 3. Utiliza los botones "Anterior" y "Siguiente" para navegar entre las imágenes.
 
 ![Interfaz 1](/assets/demo1.jpg)

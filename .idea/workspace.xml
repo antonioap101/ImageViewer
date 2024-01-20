@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86474467-c6a1-47c0-aa54-738d1d9aed13" name="Changes" comment="Added README.md">
+    <list default="true" id="86474467-c6a1-47c0-aa54-738d1d9aed13" name="Changes" comment="Finished README.md">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/software/ulpgc/imageviewer/presenter/FixerImageLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/software/ulpgc/imageviewer/presenter/FixerImageLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/torrente1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/torrente2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/torrente3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/torrente4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/torrente5.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,12 +24,26 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;antonioap101&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="5afd7fa3-fc24-4ef5-b4da-43de4fe43c4d" />
+        <option name="url" value="https://github.com/antonioap101/ImageViewer.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2bC3iXaawbpxZbaqZQn5ZAk2dlK" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -49,7 +57,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/Admin/Documents/ULPGC/3er Curso/1er Semestre/IS2/Practicas de Aula/image-viewer/ImageViewer/src/main/java/software/ulpgc/imageviewer/control",
+    "last_opened_file_path": "C:/Users/Admin/Documents/ULPGC/3er Curso/1er Semestre/IS2/Practicas de Aula/ImageViewer",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
@@ -114,13 +122,22 @@
       <option name="project" value="LOCAL" />
       <updated>1705715853665</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Finished README.md">
+      <option name="closed" value="true" />
+      <created>1705716849720</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1705716849720</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added Buttons Functionality to Presenter" />
     <MESSAGE value="Added Button Designs" />
     <MESSAGE value="Added README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added README.md" />
+    <MESSAGE value="Finished README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished README.md" />
   </component>
 </project>
